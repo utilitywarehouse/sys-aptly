@@ -11,8 +11,8 @@ on:
       - "main"
 
 env:
-  REGISTRY: quay.io
-  IMAGE_NAME: ${{ github.repository }}
+  REGISTRY: quay.io/utilitywarehouse
+  IMAGE_NAME: aptly
 
 jobs:
   docker:
